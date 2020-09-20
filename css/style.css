@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+   font-family: 'Kumbh Sans', sans-serif;
+
+}
+header{
+    text-align: center;
+    border-bottom: 1px solid #0000000f;
+}
+header a{
+    display: block;
+    text-decoration: none;
+}
+header a img{
+    width: 140px;
+}
+.main-content-section{}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.paragraph h1{max-width: 400px;font-size: 26px;text-align: center;}
+.color1{
+	color: #4081F1;
+}
+.color2{
+	color: #EA4235;
+}
+.color3{
+	color: #34AA59;
+}
+.color4{
+	color: #FBBE29;
+}
+
+.image{display: block;}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.text{}
+.text h2{
+    max-width: 200px;
+    margin-top: 45px;
+    font-size: 30px;
+}
+
+.text-paragraph{}
+.text-paragraph p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #06050585;
+}
+.text-footer{
+    padding: 100px 0px;
+    background: #0ca26d;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.text-footer h1{
+    color: #fff;
+    font-size: 38px;
+    max-width: 500px;
+    text-align: center;
+}
